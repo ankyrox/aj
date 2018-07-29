@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.rectangle-1 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1081px;
+    border: 1px solid #1d1d1b;
+    background-color: #e8306a;
+  }
+.rectangle-2 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1081px;
+    border: 1px solid #1d1d1b;
+    background-color: #353535;
+  }
+.rectangle-3 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1081px;
+    border: 1px solid #1d1d1b;
+    background-color: #00a5a0;
+  }
+.path-1 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 530px;
+    border: 1px solid #1d1d1b;
+    background-color: #161616;
+  }
+.rectangle-4 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1433px;
+    border: 1px solid #1d1d1b;
+    background-color: #bad03b;
+  }
+.path-2 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 448px;
+    border: 1px solid #1d1d1b;
+    background-color: #2c2d2a;
+  }
+  .rectangle-5 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1433px;
+    border: 1px solid #1d1d1b;
+    background-color: #5c5e4b;
+  } 
+.path-3 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 469px;
+    border: 1px solid #1d1d1b;
+    background-color: #2c2d2a;
+  }  
+.rectangle-6 {
+    margin: 0px auto;
+    width: 1920px;
+    height: 1262px;
+    border: 1px solid #1d1d1b;
+    background-color: #e8306a;
+  } 
+.rectangle-1b {
+    margin-left: 585px;
+    width: 92px;
+    height: 114px;
+    border-radius: 35px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .o  {      font-family: "halvetica";
+      font-size: 45px;
+      text-align: center;
+      margin:32px;
+      text-transform: uppercase;
+      font-weight: 400;
+  } 
+.official-tech {
+    margin-left: 393px;
+    width: 279px;
+    height: 55px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Segoe UI";
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  /* Style for "Path 8" */
+.path-8 {
+    border-radius: 19px 19px 0px 0px;
+    margin-left: 529px;
+    margin-top: 299px;
+    width: 442px;
+    height: 344px;
+    border: 1px solid #8d8d8d;
+    background-color: #ffffff;
+  }
+  /* Style for "Rectangle" */
+.rectangle-19 {
+    margin-top: 22px;
+    margin-left: 15px;
+    width: 411px;
+    height: 280px;
+    border-radius: 19px;
+    border: 1px solid #8d8d8d;
+    background-color: #e8306a;
+  }
+  /* Style for "Rectangle" */
+.rectangle-20 {
+    margin-top: 286px;
+    margin-left: 161px;
+    width: 99px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
+    background-color: #ffffff;
+  }
+  /* Style for "Path 9" */
+.path-9 {
+    margin-left: 470px;
+    margin-top: -20px;
+    width: 555px;
+    height: 25px;
+    border: 1px solid #8d8d8d;
+    border-radius: 19px;
+    background-color: #ffffff;
+  }
+  /* Style for "Path 4" */
+.path-4 {
+    width: 355px;
+    height: 276px;
+    border: 1px solid #8d8d8d;
+    border-radius: 19px 19px 0px 0px;
+    background-image: linear-gradient(to right, #8d8d8d 0%, #8d8d8d 14%, #8d8d8d 100%);
+    margin-left: 576px;
+    margin-top: 404px;
+  }
+  /* Style for "Rectangle" */
+.rectangle-10 {
+    margin-left: 13px;
+    margin-top: 18px;
+    width: 330px;
+    height: 225px;
+    border-radius: 19px;
+    border: 1px solid #8d8d8d;
+    background-color: #353535;
+  }
+  /* Style for "Rectangle" */
+.rectangle-11 {
+    margin-top: 1px;
+    margin-left: 142px;
+    width: 79px;
+    height: 13px;
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
+    background-color: #ffffff;
+  }
+  /* Style for "Rectangle" */
+.rectangle-12 {
+    margin-left: 535px;
+    width: 445px;
+    height: 20px;
+    border-radius: 9px;
+    border: 1px solid #8d8d8d;
+    background-color: #8d8d8d;
+  }
+  /* Style for "Rectangle" */
+.rectangle-13 {
+    margin-left: 877px;
+    margin-top: -435px;
+    width: 54px;
+    height: 96px;
+    border-radius: 12px;
+    border: 1px solid #8d8d8d;
+    background-color: #8d8d8d;
+  }
+  /* Style for "Path 6" */
+.path-6 {
+    margin-left: 4px;
+    margin-top: 9px;
+    width: 44px;
+    height: 79px;
+    border: 1px solid #8d8d8d;
+    background-color: #353535;
+  }
+  /* Style for "Rectangle" */
+.rectangle-16 {
+    margin-left: 953px;
+    margin-top:-107px;
+    width: 87px;
+    height: 113px;
+    border-radius: 12px;
+    border: 1px solid #8d8d8d;
+    background-color: #8d8d8d;
+  }
+  /* Style for "Path 7" */
+.path-7 {
+    margin-top: 10px;
+    margin-left: 6px;
+    width: 72px;
+    height: 93px;
+    border: 1px solid #8d8d8d;
+    background-color: #353535;
+  }
+  /* Style for "Ellipse 1" */
+.ellipse-1 {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #8d8d8d;
+    background-color: #ffffff;
+    margin-left: 23px;
+    margin-top:-1px;
+    border-radius: 20px;
+  }
+  /* Style for "Path 5" */
+.path-5 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #8d8d8d;
+    background-color: #ffffff;
+    border-radius: 19px;
+    margin-left: 38px;
+    margin-top: -1px
+  }
+  /* Style for "SERVICES" */
+.services {
+    width: 377px;
+    height: 119px;
+    margin-left:772px;
+    margin-top: 303px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Segoe UI";
+    font-size: 90px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }/* Style for "Ellipse 9" */
+.ellipse-9 {
+    width: 241px;
+    height: 241px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+    border-radius: 190px;
+    margin-top: 41px;
+    margin-left: 253px;
+  }
+  .ellipse-10 {
+    width: 241px;
+    height: 241px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+    border-radius: 190px;
+    margin-top: -241px;
+    margin-left: 644px;
+  }
+  .ellipse-11 {
+    width: 241px;
+    height: 241px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+    border-radius: 190px;
+    margin-top: -241px;
+    margin-left: 1035px;
+  }
+  .ellipse-12{
+    width: 241px;
+    height: 241px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+    border-radius: 190px;
+    margin-top: -241px;
+    margin-left: 1426px;
+  }
+
+.rectangle-4b {
+    width: 707px;
+    height: 395px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+    margin-top: 161px;
+    margin-left: 253px;
+  }
+/* Style for "CONTACT" */
+.contact {
+    width: 306px;
+    height: 91px;
+   margin-left: 230px;
+   margin-top: 429px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Segoe UI";
+    font-size: 69px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  /* Style for "Rectangle" */
+.rectangle-5b {
+    margin-left: 230px;
+    width: 1460px;
+    height: 561px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }/* Style for "Rectangle" */
+.rectangle-6t {
+    width: 372px;
+    height: 80px;
+    margin-left:1318px;
+    border-radius: 47px;
+    border: 1px solid #95989a;
+    background-color: #e5237e;
+  }
+  /* Style for "MAIL ME" */
+.mail-me {
+    width: 273px;
+    height: 65px;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Segoe UI";
+    font-size: 48px;
+    font-weight: 400;
+    margin-left:54px;
+    letter-spacing: 11.81px;
+    text-transform: uppercase;
+  }
+  /* Style for "FOLLOW US" */
+.follow-us {
+    width: 467px;
+    height: 89px;
+    color: rgba(255, 255, 255, 0.77);
+    font-family: "Segoe UI";
+    font-size: 65px;
+    margin-top: 612px;
+    margin-left: 394px; 
+    font-weight: 400;
+    letter-spacing: 12.8px;
+    text-transform: uppercase;
+  }
+  /* Style for "Ellipse 13" */
+.ellipse-13 {
+    width: 76px;
+    border-radius: 100px;
+    height: 76px;
+    margin-top: -76px;
+    margin-left: 913px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .ellipse-13 {
+    width: 76px;
+    border-radius: 100px;
+    height: 76px;
+    margin-top: -76px;
+    margin-left: 913px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .ellipse-14 {
+    width: 76px;
+    border-radius: 100px;
+    height: 76px;
+    margin-top: -76px;
+    margin-left: 1018px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .ellipse-15{
+    width: 76px;
+    border-radius: 100px;
+    height: 76px;
+    margin-top: -76px;
+    margin-left: 1123px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .ellipse-16{
+    width: 76px;
+    border-radius: 100px;
+    height: 76px;
+    margin-top: -76px;
+    margin-left: 1228px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  /* Style for "Rectangle" */
+.rectangle-7 {
+    width: 102px;
+    height: 102px;
+    border: 1px solid #95989a;
+    margin-left: 1266px;
+    margin-top: 174px;
+    background-color: #ffffff;
+  }
+  /* Style for "Rectangle" */
+.rectangle-8 {
+    width: 102px;
+    height: 102px;
+    margin-left: 1387px;
+    margin-top:-102px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  .rectangle-9 {
+    width: 102px;
+    height: 102px;
+    margin-left: 1508px;
+    margin-top:-102px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+ /* Style for "Rectangle" */
+.rectangle-10c {
+    margin-top: -102px;
+    margin-left: 1629px;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #95989a;
+    background-color: #ffffff;
+  }
+  /* Style for "Rectangle" */
+</style>
+<body>
+   <div class="rectangle-1">
+       <div class="rectangle-1b">
+        <p class="o">O</p>
+       </div>
+       <p class="official-tech">OFFICIAL TECH</p>
+       <div class="path-8">
+           <div class="rectangle-19">
+               <div class="rectangle-20"></div>    
+           </div>
+       </div>
+       <div class="path-9"></div>
+       
+   </div> 
+
+
+
+
+
+   <div class="rectangle-2">
+        <div class="rectangle-1b">
+                <p class="o">O</p>
+               </div>
+               <p class="official-tech">OFFICIAL TECH</p>
+               <div class="path-4">
+                   
+                   <div class="rectangle-10"></div>
+                   <div class="rectangle-11"></div>
+               </div>
+               <div class="rectangle-12"></div>
+               <div class="rectangle-13">                   
+                   <div class="path-6"></div>
+                   <div class="ellipse-1"></div>
+               </div>
+               <div class="rectangle-16"><div class="path-7"></div> <div class="path-5"></div></div>  
+               
+   </div>
+
+
+
+
+   <div class="rectangle-3">
+        <div class="rectangle-1b">
+                <p class="o">O</p>
+               </div>
+               <p class="official-tech">OFFICIAL TECH</p>
+   </div>
+
+
+
+
+   <div class="path-1"></div>
+   <div class="rectangle-4">
+       <p class="services">SERVICES</p>
+       <div class="ellipse-9"></div>
+       <div class="ellipse-10"></div>
+       <div class="ellipse-11"></div>
+       <div class="ellipse-12"></div>
+       <div class="rectangle-4b"></div>
+   </div>
+   <div class="path-2"></div>
+   <div class="rectangle-5">
+       <p class="contact">CONTACT</p>
+       <div class="rectangle-5b"></div>
+       <div class="rectangle-6t"><div class="mail-me">MAIL ME</div></div>
+   </div>
+   <div class="path-3"></div>
+   <div class="rectangle-6">
+       <div class="follow-us">FOLLOW US</div>
+       <div class="ellipse-13"></div>
+       <div class="ellipse-14"></div>
+       <div class="ellipse-15"></div>
+       <div class="ellipse-16"></div>
+       <div class="rectangle-7"></div>
+       <div class="rectangle-8"></div>
+       <div class="rectangle-9"></div>
+       <div class="rectangle-10c"></div>
+       </div>
+</body>
+</html>
